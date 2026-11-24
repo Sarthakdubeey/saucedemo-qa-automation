@@ -1,8 +1,7 @@
-
 # SauceDemo QA Automation Project
 
 ## Project Overview
-Automated testing of the SauceDemo e-commerce website using Python, Selenium WebDriver and Pytest.
+Automated testing of the SauceDemo e-commerce website using Python, Selenium WebDriver, and Pytest.
 
 ## Website
 https://www.saucedemo.com/
@@ -23,6 +22,7 @@ https://www.saucedemo.com/
 
 ## Project Structure
 
+```text
 saucedemo-tests/
 ├── tests/
 │   ├── conftest.py
@@ -36,26 +36,40 @@ saucedemo-tests/
 ├── test_plan.md
 ├── bug_reports.md
 └── requirements.txt
+```
 
-## Execution
+## Installation
 
-Install dependencies:
+Install the required dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
-Run tests:
+## Test Execution
 
+Run all automation tests:
+
+```bash
 python -m pytest tests -v -s
+```
 
-Generate HTML report:
+Generate an HTML test report:
 
+```bash
 python -m pytest tests -v --html=reports/test_report.html --self-contained-html
+```
 
 ## Test Results
 
-Total Tests: 3
-Passed: 3
-Failed: 0
+| Description | Result |
+|---|---:|
+| Total Tests | 3 |
+| Passed | 3 |
+| Failed | 0 |
+
+**Overall Status: PASSED**
 
 ## Author
-Sarthak Dubey
+
+**Sarthak Dubey**
