@@ -1,0 +1,15 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+
+# VS Code
+.vscode/
+
+# Test reports
+
